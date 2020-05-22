@@ -130,10 +130,6 @@ if executable('ag')
     set grepformat=%f:%l:%c%m
 endif
 
-" not sure I should keep this...
-nmap <silent> <RIGHT> :cnext<CR>
-nmap <silent> <LEFT> :cprev<CR>
-
 " bind K to grep word under cursor
 nnoremap K :Ag <C-R><C-W><CR>
 
